@@ -50,4 +50,8 @@ public class User {
     public void reporte (Servicio servicio) {
         System.out.println(servicio.toString());
     }
+
+    //public void reporteUsuario (Admin admin) {
+    //    System.out.println(admin.toString());
+    //}
 }
