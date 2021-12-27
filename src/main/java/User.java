@@ -50,4 +50,5 @@ public class User {
     public void reporte (Servicio servicio) {
         System.out.println(servicio.toString());
     }
+
 }
