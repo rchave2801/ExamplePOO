@@ -9,6 +9,7 @@ public class User {
         this.genero = genero;
         this.id = id;
         this.edad = edad;
+
     }
 
     public User() {
