@@ -47,6 +47,16 @@ public class User {
         this.edad = edad;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "nombre='" + nombre + '\'' +
+                ", genero='" + genero + '\'' +
+                ", id=" + id +
+                ", edad=" + edad +
+                '}';
+    }
+
     public void reporte (Servicio servicio) {
         System.out.println(servicio.toString());
     }
